@@ -1,0 +1,330 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for portfolio */
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  }
+
+  .glow-cyan-strong {
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1e293b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #06b6d4;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0891b2;
+  }
+
+  /* Floating animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .float-animation {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  /* Gradient text animation */
+  @keyframes gradient-shift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .gradient-animate {
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  /* Advanced particle animations */
+  @keyframes float-particle {
+    0% {
+      transform: translateY(100vh) translateX(0) rotate(0deg);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) translateX(100px) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  @keyframes orbit-1 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(100px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(100px) rotate(-360deg); }
+  }
+
+  @keyframes orbit-2 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(-360deg) translateX(150px) rotate(360deg); }
+  }
+
+  @keyframes orbit-3 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(80px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(80px) rotate(-360deg); }
+  }
+
+  .orbit-particle-1 {
+    animation: orbit-1 15s linear infinite;
+  }
+
+  .orbit-particle-2 {
+    animation: orbit-2 20s linear infinite reverse;
+  }
+
+  .orbit-particle-3 {
+    animation: orbit-3 12s linear infinite;
+  }
+
+  .glow-particle {
+    filter: drop-shadow(0 0 8px currentColor);
+  }
+
+  .glow-line {
+    filter: drop-shadow(0 0 4px currentColor);
+  }
+
+  /* Enhanced pulse animation */
+  @keyframes enhanced-pulse {
+    0%, 100% {
+      opacity: 0.4;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
+  }
+
+  .enhanced-pulse {
+    animation: enhanced-pulse 2s ease-in-out infinite;
+  }
+
+  /* Slow spin animation */
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 8s linear infinite;
+  }
+
+  /* Photo hover effects */
+  .photo-container:hover img {
+    transform: scale(1.05);
+    filter: brightness(120%) contrast(115%) saturate(120%);
+  }
+
+  .photo-container img {
+    transition: all 0.5s ease;
+  }
+
+  /* Additional glow effects */
+  .super-glow {
+    box-shadow:
+      0 0 20px rgba(34, 211, 238, 0.3),
+      0 0 40px rgba(34, 211, 238, 0.2),
+      0 0 60px rgba(34, 211, 238, 0.1);
+  }
+
+  /* Image orbiting particles */
+  @keyframes orbit-image-1 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(180px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(180px) rotate(-360deg); }
+  }
+
+  @keyframes orbit-image-2 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(220px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(-360deg) translateX(220px) rotate(360deg); }
+  }
+
+  @keyframes orbit-image-3 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(160px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(160px) rotate(-360deg); }
+  }
+
+  @keyframes orbit-image-4 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(-360deg) translateX(200px) rotate(360deg); }
+  }
+
+  @keyframes orbit-image-5 {
+    0% { transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg) translateX(140px) rotate(-360deg); }
+  }
+
+  .orbit-image-1 {
+    animation: orbit-image-1 25s linear infinite;
+  }
+
+  .orbit-image-2 {
+    animation: orbit-image-2 30s linear infinite reverse;
+  }
+
+  .orbit-image-3 {
+    animation: orbit-image-3 20s linear infinite;
+  }
+
+  .orbit-image-4 {
+    animation: orbit-image-4 35s linear infinite reverse;
+  }
+
+  .orbit-image-5 {
+    animation: orbit-image-5 18s linear infinite;
+  }
+
+  /* Mobile-specific styles and animations */
+  @media (max-width: 768px) {
+    /* Mobile bounce animation for hero image */
+    @keyframes mobile-bounce {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.02); }
+    }
+
+    .hero-image {
+      animation: mobile-bounce 4s ease-in-out infinite;
+    }
+
+    /* Touch optimization */
+    .touch-manipulation {
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Enhanced mobile button feedback */
+    .group:active {
+      transform: scale(0.95) !important;
+      transition: transform 0.1s ease-out;
+    }
+
+    /* Mobile-optimized orbit animations (smaller radius) */
+    @keyframes orbit-mobile-1 {
+      0% { transform: translate(-50%, -50%) rotate(0deg) translateX(120px) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(360deg) translateX(120px) rotate(-360deg); }
+    }
+
+    @keyframes orbit-mobile-2 {
+      0% { transform: translate(-50%, -50%) rotate(0deg) translateX(140px) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(-360deg) translateX(140px) rotate(360deg); }
+    }
+
+    @keyframes orbit-mobile-3 {
+      0% { transform: translate(-50%, -50%) rotate(0deg) translateX(100px) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(360deg) translateX(100px) rotate(-360deg); }
+    }
+
+    /* Override desktop orbit animations on mobile */
+    .orbit-image-1 {
+      animation: orbit-mobile-1 25s linear infinite;
+    }
+
+    .orbit-image-2 {
+      animation: orbit-mobile-2 30s linear infinite reverse;
+    }
+
+    .orbit-image-3 {
+      animation: orbit-mobile-3 20s linear infinite;
+    }
+
+    /* Reduce particle effects on mobile for performance */
+    .orbit-image-4,
+    .orbit-image-5 {
+      display: none;
+    }
+
+    /* Mobile-specific glow effects */
+    .super-glow {
+      box-shadow:
+        0 0 15px rgba(34, 211, 238, 0.4),
+        0 0 30px rgba(34, 211, 238, 0.2);
+    }
+  }
+
+  /* Mobile menu animations */
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Hamburger menu animations */
+  .hamburger-line {
+    transform-origin: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Enhanced mobile navbar */
+  @media (max-width: 768px) {
+    .mobile-nav-item {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .mobile-nav-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.1), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .mobile-nav-item:hover::before {
+      left: 100%;
+    }
+  }
+}
