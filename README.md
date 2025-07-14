@@ -10,7 +10,7 @@
 
 **Portfolio profesional de Cedric Lavin - Desarrollador Front-End y Especialista en Ciberseguridad**
 
-[🌐 Ver Demo](https://tu-portfolio.vercel.app) • [📧 Contacto](mailto:cedriclavin@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/cedric-lavin-alarcon-b9949424a/)
+[🌐 Ver Demo](https://portafolio-cedric.vercel.app) • [📧 Contacto](mailto:cedriclavin@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/cedric-lavin-alarcon-b9949424a/)
 
 </div>
 
@@ -164,7 +164,7 @@ portafolio-cedric/
 
 **Cedric Lavin** - Desarrollador Front-End y Especialista en Ciberseguridad
 
-- 🌐 **Portfolio**: [cedriclavin.dev](https://tu-portfolio.vercel.app)
+- 🌐 **Portfolio**: [portafolio-cedric.vercel.app](https://portafolio-cedric.vercel.app)
 - 💼 **LinkedIn**: [Cedric Lavin](https://www.linkedin.com/in/cedric-lavin-alarcon-b9949424a/)
 - 🐦 **Twitter**: [@cedriccreed2004](https://x.com/cedriccreed2004)
 - 📧 **Email**: cedriclavin@gmail.com
