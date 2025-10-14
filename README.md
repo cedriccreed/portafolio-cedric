@@ -1,4 +1,4 @@
-# 🚀 Portfolio Profesional - Cedric Lavin
+# 🚀 Portafolio Profesional - Cedric Lavin
 
 <div align="center">
 
