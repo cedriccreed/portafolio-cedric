@@ -1,15 +1,15 @@
-# 🚀 Portfolio Profesional - Cedric Lavin
+# 🚀 Portafolio Profesional - Cedric Lavin
 
 <div align="center">
 
-![Portfolio Banner](https://img.shields.io/badge/Portfolio-Frontend%20Developer-00d4ff?style=for-the-badge)
+![Portafolio Banner](https://img.shields.io/badge/Portafolio-Frontend%20Developer-00d4ff?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-3.12.5-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-3.4.14-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-### Portfolio profesional de desarrollo frontend con enfoque en experiencia de usuario, rendimiento y diseño moderno
+### Portafolio profesional de desarrollo frontend con enfoque en experiencia de usuario, rendimiento y diseño moderno
 
 [🌐 Ver Proyecto en Vivo](https://portafolio-cedric.vercel.app) • [📧 Contacto](mailto:cedriclavin@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/cedric-lavin-alarcon-b9949424a/)
 
@@ -19,7 +19,7 @@
 
 ## 📖 Descripción del Proyecto
 
-Portfolio profesional desarrollado con **React 18** y **Vite**, enfocado en demostrar habilidades avanzadas de desarrollo frontend mediante una experiencia visual impactante y performance optimizado. El proyecto implementa animaciones complejas con GSAP, efectos de partículas interactivas, y un diseño responsive mobile-first que garantiza una experiencia fluida en todos los dispositivos.
+Portafolio profesional desarrollado con **React 18** y **Vite**, enfocado en demostrar habilidades avanzadas de desarrollo frontend mediante una experiencia visual impactante y performance optimizado. El proyecto implementa animaciones complejas con GSAP, efectos de partículas interactivas, y un diseño responsive mobile-first que garantiza una experiencia fluida en todos los dispositivos.
 
 ### 🎯 Objetivos del Proyecto
 
@@ -223,7 +223,7 @@ portafolio-cedric/
 ### 📂 Descripción de Componentes Clave
 
 - **`Hero.jsx`**: Landing principal con animaciones de entrada sincronizadas
-- **`Portfolio.jsx`**: Grid de proyectos con hover effects y enlaces externos
+- **`Portfolio.jsx`**: Grid de portafolio con hover effects y enlaces externos
 - **`ImageParticles.jsx`**: Sistema de partículas orbitales alrededor de elementos
 - **`Header.jsx`**: Navbar transparente con scroll behavior
 - **`Contact.jsx`**: Formulario de contacto con validación
@@ -323,7 +323,7 @@ Componente Padre (App.jsx)
     ├── Hero (Landing con partículas)
     ├── About (Información personal)
     ├── Services (Servicios ofrecidos)
-    ├── Portfolio (Galería de proyectos)
+    ├── Portafolio (Galería de proyectos)
     └── Contact (Formulario de contacto)
 ```
 
@@ -475,7 +475,7 @@ Plan de testing para implementación futura:
 
 ## 🤝 Contribuciones
 
-Aunque este es un portfolio personal, las sugerencias son bienvenidas:
+Aunque este es un portafolio personal, las sugerencias son bienvenidas:
 
 1. **Fork** el repositorio
 2. Crea una **feature branch** (`git checkout -b feature/AmazingFeature`)
@@ -498,7 +498,7 @@ Aunque este es un portfolio personal, las sugerencias son bienvenidas:
 - ⚡ Optimizaciones de performance
 
 ### **v1.0.0** - 2024-11-15
-- 🎉 Lanzamiento inicial del portfolio
+- 🎉 Lanzamiento inicial del portafolio
 - ✨ Implementación de todas las secciones
 - 🎨 Sistema de animaciones GSAP completo
 
@@ -537,7 +537,7 @@ Desarrollador frontend con experiencia en la creación de aplicaciones web moder
 
 <div align="left">
 
-- 🌐 **Portfolio**: [portafolio-cedric.vercel.app](https://portafolio-cedric.vercel.app)
+- 🌐 **Portafolio**: [portafolio-cedric.vercel.app](https://portafolio-cedric.vercel.app)
 - 💼 **LinkedIn**: [Cedric Lavin Alarcon](https://www.linkedin.com/in/cedric-lavin-alarcon-b9949424a/)
 - 🐦 **Twitter/X**: [@cedriccreed2004](https://x.com/cedriccreed2004)
 - 📧 **Email**: [cedriclavin@gmail.com](mailto:cedriclavin@gmail.com)
